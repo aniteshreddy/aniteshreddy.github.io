@@ -57,7 +57,7 @@ export default function About() {
 
         {/* Personal Info */}
 
-        <div className="col-md-3 m-0 p-0 infoTitle border-end ">
+        <div className="col-md-2 m-0 p-0 infoTitle border-end ">
           <div>
             <h3
               onClick={togglePersonalInfo}

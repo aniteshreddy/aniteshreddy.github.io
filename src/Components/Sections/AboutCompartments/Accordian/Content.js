@@ -20,7 +20,7 @@ const Content = ({ tabs, activeTab }) => {
               <ul className="list-group ">
                 {numbers.map((number) => (
                   <li
-                    className=" list-group-item px-3 pt-1 pb-0 small"
+                    className=" list-group-item px-2 pt-1 pb-0 small"
                     key={number}
                   >
                     
