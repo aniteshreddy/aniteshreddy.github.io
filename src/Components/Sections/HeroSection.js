@@ -12,7 +12,7 @@ export default function HeroSection() {
           <div className="col-md-6 text-start">
             <span className="subTitle"> Hi, I am</span>
             <h1 className="Title"> Anitesh Reddy</h1>
-            <h2 className="subTitleBottom">{">"} Software Engineer & Machine Learning Engineer</h2>
+            <h2 className="subTitleBottom">{">"} Developer </h2>
             <div className="codeHero mt-5">
               <SyntaxHighlighter language="javascript" style={dracula}>
                 // complete/skip the game to continue website,

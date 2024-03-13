@@ -40,32 +40,12 @@ export default function About() {
             >
               <i className="bi bi-file-person "></i>
             </a>
-            <div className="d-flex flex-column gap-4 ">
-              <a
-                className=" pe-cursor link-offset-2 link-underline-opacity-0"
-                href="#"
-              >
-                <i className="bi bi-house "></i>
-              </a>
-              <a
-                className="link-offset-2 link-underline-opacity-0 pe-cursor"
-                href="#about-me"
-              >
-                <i className="bi bi-file-person "></i>
-              </a>
-              {/* <a
-                className="link-offset-2 link-underline-opacity-0 pe-cursor"
-                href="#contact"
-              >
-                <i className="bi bi-person-lines-fill "></i>
-              </a> */}
-              <a
-                className="link-offset-2 link-underline-opacity-0 pe-cursor"
-                href="#projects"
-              >
-                <i className="bi bi-cast "></i>
-              </a>
-            </div>
+            {/* <a
+              className="link-offset-2 link-underline-opacity-0 pe-cursor"
+              href="#projects"
+            >
+              <i className="bi bi-cast "></i>
+            </a> */}
             {/* <a
               className="link-offset-2 link-underline-opacity-0 pe-cursor"
               href="#contact"
@@ -77,7 +57,7 @@ export default function About() {
 
         {/* Personal Info */}
 
-        <div className="col-md-2 m-0 p-0 infoTitle border-end ">
+        <div className="col-md-3 m-0 p-0 infoTitle border-end ">
           <div>
             <h3
               onClick={togglePersonalInfo}

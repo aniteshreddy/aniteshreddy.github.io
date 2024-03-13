@@ -38,4 +38,7 @@ const Content = ({ tabs, activeTab }) => {
   );
 };
 
+
+
+
 export default Content;

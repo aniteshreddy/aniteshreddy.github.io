@@ -22,15 +22,22 @@ const data = [
     content: (
       <div className="text-white">
         <p>
-          As an Engineer, I've worked at various companies where i learnt & crafted software that's not just stashed away.
+          As an Developer, I've worked at various companies where i learnt & crafted software that's not just stashed away.
 
         </p>
         <p>
-          * Hire me! I'm not just fluent in coding , but also in the art of turning coffee into code *
+          * Hire me! (why?)*
+        </p>
+        <p>
+          *I'm not just fluent in coding , but also in the art of turning coffee into code *
+        </p>
+        <p>
+          *Never shows up empty handed, if I don't know something, I will learn and either comeup with a solution or a quickfix*
         </p>
         <p>
           Open Source? I'm building one Right Now!!!
         </p>
+        
       </div>
     ),
   },

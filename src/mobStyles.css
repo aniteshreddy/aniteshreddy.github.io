@@ -147,9 +147,20 @@
 
   .TitleTabsNew ul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap; /* Allow tabs to wrap to the next line */
+    justify-content: center; /* Center align tabs horizontally */
+    padding: 0;
+  }
+  
+  .TitleTabsNew li {
+    flex: 0 0 auto; /* Allow tabs to grow or shrink as needed */
+    margin: 5px; /* Adjust margin between tabs */
+  }
+  
+  @media (max-width: 768px) {
+    .TitleTabsNew li {
+      flex-basis: 45%; /* Set the initial size of tabs on smaller screens */
+    }
   }
 
   .infoTitle .list-group-item {
