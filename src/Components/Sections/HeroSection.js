@@ -20,16 +20,16 @@ export default function HeroSection() {
               <SyntaxHighlighter language="javascript" style={dracula}>
                 // I'd Suggest play a little? 
               </SyntaxHighlighter>
-              <a  href="https://www.linkedin.com/in/reddy-anitesh/" >
+             
               <SyntaxHighlighter
                 className="mt-2"
                 language="javascript"
                 style={dracula}
               >
-                const githubLink = "https://www.linkedin.com/in/reddy-anitesh/"
+                const githubLink = "github.com/aniteshreddy"
 
               </SyntaxHighlighter>
-              </a>
+              
             </div>
             <div className="myLinks gap-3 d-flex mt-5">
               <a href={"https://drive.google.com/file/d/11dhK5-VU97iscDwaBjAFurqy4VzBN1tk/view?usp=sharing"} className="btn solidBtn solidBig">
