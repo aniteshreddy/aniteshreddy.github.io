@@ -26,6 +26,15 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+            <ul className="firstBar navbar-nav  mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="https://stackoverflow.com/users/13286461/anitesh-reddy">
+                <i className="bi bi-stack-overflow"></i>
+                </a>
+              </li>
+            </ul>
+
+            
             <ul className=" navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/aniteshreddy">
