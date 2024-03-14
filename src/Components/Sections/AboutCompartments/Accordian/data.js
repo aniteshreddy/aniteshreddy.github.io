@@ -37,7 +37,7 @@ const data = [
         <p>
           Open Source? I'm building one Right Now!!!
         </p>
-        
+
       </div>
     ),
   },
@@ -250,6 +250,39 @@ const data = [
     )
   },
 
+  {
+    id: 7,
+    title: "Cocurriculars",
+    content: (
+      <div className="experience gap-3 d-flex row">
+        <div className="d-flex row gap-0">
+          <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
+            EWB - Engineers Without Borders
+          </h3>
+          <span className="small text-white">Student Co-ordinator</span>
+          <span className="small text-white">I have been an integral part of various events like Flood relief camps, Technical seminars and arranging digital classes 
+          to the governments schools by getting funds from the donors.</span>
+
+        </div>
+        <div className="d-flex row gap-0">
+          <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
+            GLUG (GNU Linux Users Group)
+          </h3>
+          <span className="small text-white">President</span>
+          <span className="small text-white">I have co-founded a club in association FSMI(Free Software Movement of India)</span>
+          <span className="small text-white">Through this student body, I have arranged multiple seminars and used teach Mobile App and Web Development</span>
+
+        </div>
+        <div className="d-flex row gap-0">
+          <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
+            Inter school Badminton Champion
+          </h3>
+          <span className="small text-white">Runner up</span>
+        </div>
+        
+      </div>
+    )
+  },
 
 
 
