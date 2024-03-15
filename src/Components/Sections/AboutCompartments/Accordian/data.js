@@ -88,7 +88,7 @@ const data = [
           <h5 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
             <a href="rice.edu" title="Rice University" style={{ color: '#3bc0a5' }}>
               Rice University
-            </a> - Teaching Assistant (Machine Learning & Deep Learning)
+            </a> - Graduate Intern & Teaching Assistant (Machine Learning & Deep Learning)
           </h5>
           <span class="small text-white"> May-23 =&gt; Present, Texas</span>
         </div>
@@ -116,9 +116,9 @@ const data = [
           <h5 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
             <a href="#" title="FreeLancing" style={{ color: '#3bc0a5' }}>
               Freelancer
-            </a> - Mobile App and Web Developer
+            </a> - Tech Consultant
           </h5>
-          <span className="small text-white">Jan-22 =&gt; Apr-22, Texas</span>
+          <span className="small text-white">March-20 =&gt; December-21, Texas</span>
         </div>
 
         <div className="d-flex row gap-2">
@@ -254,31 +254,45 @@ const data = [
     id: 7,
     title: "Cocurriculars",
     content: (
+      
       <div className="experience gap-3 d-flex row">
         <div className="d-flex row gap-0">
+        <div className="d-flex row gap-0">
           <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
-            EWB - Engineers Without Borders
+            Computer Science Rice Graduate Student Association(Rice, CSGSA)
           </h3>
-          <span className="small text-white">Student Co-ordinator</span>
-          <span className="small text-white">I have been an integral part of various events like Flood relief camps, Technical seminars and arranging digital classes 
-          to the governments schools by getting funds from the donors.</span>
-
+          <span className="small text-green">Treasurer</span>
+          <span className="small text-white">Create detailed plans for events, including timelines, budgets, venues, vendors, and staffing</span>
+          <span className="small text-white">Coordinate event logistics, such as catering, transportation, decorations, audio/visual, and other event-related services</span>
+          <p> </p>
         </div>
+
         <div className="d-flex row gap-0">
           <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
             GLUG (GNU Linux Users Group)
           </h3>
-          <span className="small text-white">President</span>
+          <span className="small text-green">President</span>
           <span className="small text-white">I have co-founded a club in association FSMI(Free Software Movement of India)</span>
           <span className="small text-white">Through this student body, I have arranged multiple seminars and used teach Mobile App and Web Development</span>
-
+          <p> </p>
         </div>
+          <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
+            EWB - Engineers Without Borders
+          </h3>
+          <span className="small text-green">Student Co-ordinator</span>
+          <span className="small text-white">I have been an integral part of various events like Flood relief camps, Technical seminars and arranging digital classes 
+          to the governments schools by getting funds from the donors.</span>
+          <p> </p>
+        </div>
+      
         <div className="d-flex row gap-0">
           <h3 style={{ color: 'white', transition: 'color 0.3s ease-in-out' }}>
             Inter school Badminton Champion
           </h3>
-          <span className="small text-white">Runner up</span>
+          <span className="small text-green">Runner up</span>
+          <p> </p>
         </div>
+       
         
       </div>
     )

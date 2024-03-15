@@ -32,7 +32,7 @@ export default function HeroSection() {
               
             </div>
             <div className="myLinks gap-3 d-flex mt-5">
-              <a href={"https://drive.google.com/file/d/11dhK5-VU97iscDwaBjAFurqy4VzBN1tk/view?usp=sharing"} className="btn solidBtn solidBig">
+              <a href={"https://drive.google.com/drive/folders/1oon_Y3f6V7VSvaLmow19UQiWU6rebrez?usp=sharing"} className="btn solidBtn solidBig">
                 _cv              <i className="bi bi-file-earmark-person-fill"></i>
 
               </a>
