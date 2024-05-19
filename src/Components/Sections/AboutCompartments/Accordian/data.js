@@ -73,7 +73,7 @@ const data = [
         <CustomImage
           src={skills}
           alt="Skills"
-          style={{ width: '105%', height: 'auto' }}
+          style={{ width: '110%', height: '150%' }}
         />
       </div>
     )
