@@ -71,6 +71,36 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Fetch Experience Data
+    const experienceContainer = document.getElementById('experience-container');
+    if (experienceContainer) {
+        // Fetch JSON data and dynamic create HTML
+        fetch('assets/data/experience.json')
+            .then(response => response.json())
+            .then(data => {
+                data.forEach((job) => {
+                    const timelineItem = document.createElement('div');
+                    timelineItem.className = 'timeline-item';
+
+                    const achievementsList = job.achievements.map(ach => `<li>${ach}</li>`).join('');
+
+                    timelineItem.innerHTML = `
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <h3>${job.company} <span class="location">${job.location}</span></h3>
+                            <h4 class="timeline-role">${job.role}</h4>
+                            <span class="timeline-date">${job.date}</span>
+                            <ul>
+                                ${achievementsList}
+                            </ul>
+                        </div>
+                    `;
+                    experienceContainer.appendChild(timelineItem);
+                });
+            })
+            .catch(error => console.error('Error loading experience data:', error));
+    }
+
     // Trigger reveal immediately for elements already in view on load
     setTimeout(() => {
         reveals.forEach(reveal => {
