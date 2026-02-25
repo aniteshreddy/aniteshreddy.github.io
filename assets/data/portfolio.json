@@ -1,0 +1,183 @@
+{
+    "hero": {
+        "subtitle": "Hello, I'm",
+        "firstName": "Anitesh Reddy",
+        "lastName": "Surakanti",
+        "role": "Machine Learning Engineer",
+        "summary": "Specializing in Edge AI, Model Quantization, Latency Optimization, and Parallel Computing to build scalable, high-performance systems.",
+        "links": {
+            "linkedin": "https://linkedin.com/in/reddy-anitesh/",
+            "github": "https://github.com/aniteshreddy",
+            "email": "reddyanitesh@gmail.com"
+        }
+    },
+    "about": {
+        "paragraphs": [
+            "As a Founding Engineer and Machine Learning specialist, I've architected software and intelligent engines that are meant to be deployed.",
+            "<strong>Why Hire Me?</strong><br>I am a master in the art of turning coffee into code and the art of failing upwards"
+        ],
+        "location": "San Francisco, CA"
+    },
+    "skills": [
+        {
+            "icon": "fas fa-code",
+            "title": "Languages",
+            "description": "Python, C++, SQL, Java, Dart",
+            "fullWidth": false
+        },
+        {
+            "icon": "fas fa-brain",
+            "title": "ML Frameworks",
+            "description": "PyTorch, TensorFlow, Scikit-learn, OpenCV, Transformers",
+            "fullWidth": false
+        },
+        {
+            "icon": "fas fa-server",
+            "title": "Infra & MLOps",
+            "description": "Docker, AWS (EC2, S3), Celery, Temporal, GitHub Actions (CI/CD)",
+            "fullWidth": false
+        },
+        {
+            "icon": "fas fa-database",
+            "title": "Data & Backend",
+            "description": "PostgreSQL, PySpark, Databricks, Django, FastAPI, Redis, Pinecone",
+            "fullWidth": false
+        },
+        {
+            "icon": "fas fa-bolt",
+            "title": "Core Competency",
+            "description": "Edge AI, Model Quantization, Latency Optimization, Parallel Computing",
+            "fullWidth": true
+        }
+    ],
+    "experience": [
+        {
+            "company": "Grove Safety",
+            "location": "San Francisco, CA",
+            "role": "Founding Engineer (Machine Learning)",
+            "date": "August 2024 – October 2025",
+            "achievements": [
+                "<strong>AI Optimization:</strong> Architected the end-to-end inference engine for real-time object detection (YOLO, EfficientDet) and audio classification (YamNet). Achieved 30ms latency on resource-constrained devices via quantization.",
+                "<strong>ML Pipeline Design:</strong> Built the complete MLOps lifecycle from data ingestion to deployment. Engineered automated quantization pipelines to convert models into edge-optimized formats (TFLite/ONNX).",
+                "<strong>LLM Workflow:</strong> Built multistep LLM workflows using Temporal, Reducto for document processing, implementing typo-tolerant search (pg_trgm), centralized observability with Sentry and CI/CD with GitHub Actions.",
+                "<strong>Scalable Backend:</strong> Engineered a high-throughput Django backend using Celery for asynchronous inference tasks and WebSockets for real-time prediction streaming."
+            ]
+        },
+        {
+            "company": "Finarb",
+            "location": "Kolkata, India / California",
+            "role": "SDE-AI",
+            "date": "January 2022 – December 2022",
+            "achievements": [
+                "<strong>Predictive Modelling:</strong> Deployed an ensemble model (XGBoost + Neural Networks) for customer retention, utilizing hyperparameter tuning to optimize for recall in the healthcare industry.",
+                "<strong>ML Modelling:</strong> Developed ML model for automated defect detection using sensor data from production robots, achieving 93% accuracy in identifying broken pills and reducing QA costs.",
+                "<strong>Inference API Optimization:</strong> Built a production ML serving API using Flask. Reduced response time by 50% (to <2s) through multi-worker architecture and database query optimization.",
+                "<strong>Big Data Pipelines:</strong> Designed ETL pipelines using PySpark on Azure Databricks, integrating data from 5+ sources."
+            ]
+        },
+        {
+            "company": "JPMorganChase / Wiley",
+            "location": "India",
+            "role": "Full Stack Engineer and Intern",
+            "date": "May 2021 – December 2021",
+            "achievements": [
+                "Developed front-end components for web applications using Java, Spring, and Spring Boot, contributing to an agile life cycle.",
+                "Implemented Eureka for microservice architecture and load balancing, optimizing application performance and ensuring high availability across distributed systems.",
+                "Built RESTful APIs with comprehensive error handling and validation, following enterprise-level security and coding standards."
+            ]
+        },
+        {
+            "company": "Self Employed · Freelance",
+            "location": "Hyderabad, Telangana, India / Remote",
+            "role": "Tech Consultant",
+            "date": "March 2020 – November 2021",
+            "achievements": [
+                "Developed 5+ mobile, web applications and published 2 machine learning-powered apps to Google Play Store, resulting in over 10k+ downloads.",
+                "Integrated machine learning models into web applications using Django and Flask frameworks, hosted on AWS EC2.",
+                "Utilized Docker for containerization and Elasticsearch for efficient data retrieval and search functionality."
+            ]
+        },
+        {
+            "company": "Swecha",
+            "location": "Hyderabad, Telangana, India",
+            "role": "Data Science Intern",
+            "date": "May 2019 – June 2019",
+            "achievements": [
+                "Led Agro-Analyzer, an open-source project aimed at helping farmers make informed decisions about which crops might yield better profits based on weather forecasts and previous year prices. Worked with a team of 5 to predict crop prices using NumPy, Pandas, TensorFlow, and Bokeh.",
+                "Collected and analyzed 2 years of agricultural data for 15 high-yield crops to forecast costs over the next year. Delivered interactive visualizations in Bokeh to communicate data insights about crop trends, enabling farmers to plan their crop cycles effectively."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Rice University",
+            "date": "January 2023 – May 2024",
+            "degree": "Master of Computer Science (ML Major)",
+            "location": "Houston, TX",
+            "notes": "<strong>Role:</strong> Graduate Intern & Teaching Assistant (Machine Learning & Deep Learning)"
+        },
+        {
+            "institution": "GITAM University",
+            "date": "June 2017 – April 2021",
+            "degree": "Bachelor of Technology in Computer Science",
+            "location": "Hyderabad, India",
+            "notes": null
+        }
+    ],
+    "projects": [
+        {
+            "title": "Cardiomyopathy Diagnosis Using ML",
+            "meta": "Texas Children Hospital | Aug 2023 – Dec 2023",
+            "bullets": [
+                "<strong>CV Pipeline:</strong> Automated echocardiogram analysis by implementing RGB isolation, outlier detection, and polynomial regression to extract six heart strain maps.",
+                "<strong>Diagnostic Model:</strong> Developed ensemble classifier (CNN, SVM, RF) to detect pediatric diastolic dysfunction, achieving 0.9 AUC on an imbalanced medical dataset."
+            ],
+            "link": null
+        },
+        {
+            "title": "Reinforcement Learning & Parallel Computing",
+            "meta": "Academic | Aug 2023 – May 2024",
+            "bullets": [
+                "Developed a MiniGrid agent solving complex tasks using reward shaping and fine-tuning.",
+                "<strong>CUDA Kernel Development:</strong> Designed data-parallel kernels for sparse array compaction optimizing memory reorganization on GPUs.",
+                "<strong>Distributed Systems (MPI):</strong> Implemented communication-optimal 2.5D Matrix Multiplication algorithm using MPI."
+            ],
+            "link": null
+        },
+        {
+            "title": "Price Prediction using NLP & LSH",
+            "meta": "Open Source",
+            "bullets": [
+                "Leveraged Natural Language Processing and Locality Sensitive Hashing algorithms to predict real-world marketplace prices efficiently."
+            ],
+            "link": "https://github.com/sharathgiri87/Marketplace-Price-Prediction-using-NLP-and-LSH"
+        },
+        {
+            "title": "Computer Vision to Reduce Food Wastage",
+            "meta": "Open Source",
+            "bullets": [
+                "Applied CV models to monitor and reduce food wastage by accurately identifying produce states."
+            ],
+            "link": "https://github.com/sharathgiri87/Computer-vision-to-reduce-food-wastage"
+        }
+    ],
+    "community": {
+        "engagement": [
+            "<strong>GLUG President (GITAM University):</strong> Led 50+ member community; delivered presentations to 700+ students (2019-2021). Co-founded with FSMI.",
+            "<strong>Tapia STEM Camp Volunteer (Rice University):</strong> Mentored underrepresented minorities in STEM disciplines (2023-2024).",
+            "<strong>Engineers Without Borders (GITAM):</strong> Student Coordinator. Raised funds for rural infrastructure, ran flood relief camps and digital classes (2017-2019).",
+            "<strong>CSGSA Treasurer (Rice University):</strong> Coordinated event logistics, timelines, budgets for grad student association events."
+        ],
+        "certifications": [
+            "<strong>Wiley Edge:</strong> Software Developer Program (Nov 2021)",
+            "<strong>LearnQuest:</strong> Cloud Computing Basics (Dec 2020)",
+            "<strong>Alberta Machine Intelligence Institute:</strong> Machine Learning Algorithms: Supervised Learning (Dec 2020)",
+            "<strong>University of Michigan:</strong> Python Data Structures (Dec 2020)",
+            "<strong>Inter-school Badminton:</strong> Runner-up Champion"
+        ]
+    },
+    "footer": {
+        "year": "2025",
+        "name": "Anitesh Reddy Surakanti"
+    }
+}

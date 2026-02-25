@@ -50,23 +50,16 @@
     <header class="hero" id="home">
         <div class="container hero-content">
             <div class="hero-text reveal">
-                <p class="subtitle">Hello, I'm</p>
-                <h1 class="title">Anitesh Reddy <span>Surakanti</span></h1>
-                <h2 class="role">Machine Learning Engineer</h2>
-                <p class="summary">
-                    Specializing in Edge AI, Model Quantization, Latency Optimization, and Parallel Computing to build
-                    scalable, high-performance systems.
-                </p>
+                <p class="subtitle" id="hero-subtitle"></p>
+                <h1 class="title" id="hero-title"><span></span></h1>
+                <h2 class="role" id="hero-role"></h2>
+                <p class="summary" id="hero-summary"></p>
                 <div class="hero-cta">
                     <a href="#experience" class="btn btn-primary">View Experience</a>
-                    <a href="mailto:reddyanitesh@gmail.com" class="btn btn-secondary">Contact Me</a>
+                    <a href="#contact" class="btn btn-secondary" id="hero-contact-btn">Contact Me</a>
                 </div>
-                <div class="social-links mt-4">
-                    <a href="https://linkedin.com/in/reddy-anitesh/" target="_blank" rel="noopener noreferrer"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/aniteshreddy" target="_blank" rel="noopener noreferrer"><i
-                            class="fab fa-github"></i></a>
-                    <a href="mailto:reddyanitesh@gmail.com"><i class="fas fa-envelope"></i></a>
+                <div class="social-links mt-4" id="hero-social">
+                    <!-- Dynamic Social Links -->
                 </div>
             </div>
         </div>
@@ -77,18 +70,8 @@
         <section id="about" class="section">
             <div class="container reveal">
                 <h2 class="section-title">About Me</h2>
-                <div class="glass-card about-card">
-                    <p>
-                        As a Founding Engineer and Machine Learning specialist, I've architected software and
-                        intelligent engines that are meant to be deployed, not just stashed away.
-                    </p>
-                    <p>
-                        <strong>Why Hire Me?</strong><br>
-                        I'm not just fluent in coding, but also in the art of turning coffee into low-latency ML
-                        pipelines. I never show up empty-handed—if I encounter an unknown, I will learn, adapt, and
-                        deliver a robust solution. Open source? I'm always building.
-                    </p>
-                    <p class="highlight-text mt-2"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                <div class="glass-card about-card" id="about-container">
+                    <!-- Dynamic About Text -->
                 </div>
             </div>
         </section>
@@ -97,27 +80,8 @@
         <section id="skills" class="section">
             <div class="container reveal">
                 <h2 class="section-title">Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="glass-card skill-card">
-                        <h3><i class="fas fa-code"></i> Languages</h3>
-                        <p>Python, C++, SQL, Java, Dart</p>
-                    </div>
-                    <div class="glass-card skill-card">
-                        <h3><i class="fas fa-brain"></i> ML Frameworks</h3>
-                        <p>PyTorch, TensorFlow, Scikit-learn, OpenCV, Transformers</p>
-                    </div>
-                    <div class="glass-card skill-card">
-                        <h3><i class="fas fa-server"></i> Infra & MLOps</h3>
-                        <p>Docker, AWS (EC2, S3), Celery, Temporal, GitHub Actions (CI/CD)</p>
-                    </div>
-                    <div class="glass-card skill-card">
-                        <h3><i class="fas fa-database"></i> Data & Backend</h3>
-                        <p>PostgreSQL, PySpark, Databricks, Django, FastAPI, Redis, Pinecone</p>
-                    </div>
-                    <div class="glass-card skill-card full-width">
-                        <h3><i class="fas fa-bolt"></i> Core Competency</h3>
-                        <p>Edge AI, Model Quantization, Latency Optimization, Parallel Computing</p>
-                    </div>
+                <div class="skills-grid" id="skills-container">
+                    <!-- Dynamic Skills -->
                 </div>
             </div>
         </section>
@@ -127,7 +91,7 @@
             <div class="container reveal">
                 <h2 class="section-title">Professional Experience</h2>
                 <div class="timeline" id="experience-container">
-                    <!-- Experience items will be dynamically loaded here by script.js -->
+                    <!-- Dynamic Experience -->
                 </div>
             </div>
         </section>
@@ -136,26 +100,8 @@
         <section id="education" class="section">
             <div class="container reveal">
                 <h2 class="section-title">Education</h2>
-                <div class="education-grid">
-                    <div class="glass-card ed-card">
-                        <div class="ed-header">
-                            <h3>Rice University</h3>
-                            <span class="ed-date">January 2023 – May 2024</span>
-                        </div>
-                        <h4 class="ed-degree">Master of Computer Science (ML Major)</h4>
-                        <p class="ed-location"><i class="fas fa-map-marker-alt"></i> Houston, TX</p>
-                        <p class="ed-notes mt-2"><strong>Role:</strong> Graduate Intern & Teaching Assistant (Machine
-                            Learning & Deep Learning)</p>
-                    </div>
-
-                    <div class="glass-card ed-card">
-                        <div class="ed-header">
-                            <h3>GITAM University</h3>
-                            <span class="ed-date">June 2017 – April 2021</span>
-                        </div>
-                        <h4 class="ed-degree">Bachelor of Technology in Computer Science</h4>
-                        <p class="ed-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
-                    </div>
+                <div class="education-grid" id="education-container">
+                    <!-- Dynamic Education -->
                 </div>
             </div>
         </section>
@@ -164,52 +110,8 @@
         <section id="projects" class="section">
             <div class="container reveal">
                 <h2 class="section-title">Projects & Academic Experience</h2>
-                <div class="projects-grid">
-
-                    <div class="glass-card project-card">
-                        <h3>Cardiomyopathy Diagnosis Using ML</h3>
-                        <p class="project-meta">Texas Children Hospital | Aug 2023 – Dec 2023</p>
-                        <ul>
-                            <li><strong>CV Pipeline:</strong> Automated echocardiogram analysis by implementing RGB
-                                isolation, outlier detection, and polynomial regression to extract six heart strain
-                                maps.</li>
-                            <li><strong>Diagnostic Model:</strong> Developed ensemble classifier (CNN, SVM, RF) to
-                                detect pediatric diastolic dysfunction, achieving 0.9 AUC on an imbalanced medical
-                                dataset.</li>
-                        </ul>
-                    </div>
-
-                    <div class="glass-card project-card">
-                        <h3>Reinforcement Learning & Parallel Computing</h3>
-                        <p class="project-meta">Academic | Aug 2023 – May 2024</p>
-                        <ul>
-                            <li>Developed a MiniGrid agent solving complex tasks using reward shaping and fine-tuning.
-                            </li>
-                            <li><strong>CUDA Kernel Development:</strong> Designed data-parallel kernels for sparse
-                                array compaction optimizing memory reorganization on GPUs.</li>
-                            <li><strong>Distributed Systems (MPI):</strong> Implemented communication-optimal 2.5D
-                                Matrix Multiplication algorithm using MPI.</li>
-                        </ul>
-                    </div>
-
-                    <div class="glass-card project-card">
-                        <h3>Price Prediction using NLP & LSH</h3>
-                        <p class="project-meta">Open Source</p>
-                        <p>Leveraged Natural Language Processing and Locality Sensitive Hashing algorithms to predict
-                            real-world marketplace prices efficiently.</p>
-                        <a href="https://github.com/sharathgiri87/Marketplace-Price-Prediction-using-NLP-and-LSH"
-                            target="_blank" class="project-link">View Repository <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <div class="glass-card project-card">
-                        <h3>Computer Vision to Reduce Food Wastage</h3>
-                        <p class="project-meta">Open Source</p>
-                        <p>Applied CV models to monitor and reduce food wastage by accurately identifying produce
-                            states.</p>
-                        <a href="https://github.com/sharathgiri87/Computer-vision-to-reduce-food-wastage"
-                            target="_blank" class="project-link">View Repository <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
+                <div class="projects-grid" id="projects-container">
+                    <!-- Dynamic Projects -->
                 </div>
             </div>
         </section>
@@ -218,29 +120,17 @@
         <section id="community" class="section">
             <div class="container reveal">
                 <h2 class="section-title">Community & Certifications</h2>
-                <div class="community-grid">
+                <div class="community-grid" id="community-container">
                     <div class="glass-card community-card">
                         <h3><i class="fas fa-users"></i> Community Engagement</h3>
-                        <ul class="clean-list mt-3">
-                            <li><strong>GLUG President (GITAM University):</strong> Led 50+ member community; delivered
-                                presentations to 700+ students (2019-2021). Co-founded with FSMI.</li>
-                            <li><strong>Tapia STEM Camp Volunteer (Rice University):</strong> Mentored underrepresented
-                                minorities in STEM disciplines (2023-2024).</li>
-                            <li><strong>Engineers Without Borders (GITAM):</strong> Student Coordinator. Raised funds
-                                for rural infrastructure, ran flood relief camps and digital classes (2017-2019).</li>
-                            <li><strong>CSGSA Treasurer (Rice University):</strong> Coordinated event logistics,
-                                timelines, budgets for grad student association events.</li>
+                        <ul class="clean-list mt-3" id="community-engagement">
+                            <!-- Dynamic Engagement -->
                         </ul>
                     </div>
                     <div class="glass-card community-card">
                         <h3><i class="fas fa-certificate"></i> Certifications & Awards</h3>
-                        <ul class="clean-list mt-3">
-                            <li><strong>Wiley Edge:</strong> Software Developer Program (Nov 2021)</li>
-                            <li><strong>LearnQuest:</strong> Cloud Computing Basics (Dec 2020)</li>
-                            <li><strong>Alberta Machine Intelligence Institute:</strong> Machine Learning Algorithms:
-                                Supervised Learning (Dec 2020)</li>
-                            <li><strong>University of Michigan:</strong> Python Data Structures (Dec 2020)</li>
-                            <li><strong>Inter-school Badminton:</strong> Runner-up Champion</li>
+                        <ul class="clean-list mt-3" id="community-certifications">
+                            <!-- Dynamic Certifications -->
                         </ul>
                     </div>
                 </div>
@@ -253,7 +143,7 @@
                 <div class="glass-card contact-card text-center">
                     <h2>Get In Touch</h2>
                     <p>Whether you have a question or just want to say hi, my inbox is always open.</p>
-                    <a href="mailto:reddyanitesh@gmail.com" class="btn btn-primary mt-3">Say Hello <i
+                    <a href="" class="btn btn-primary mt-3" id="contact-btn">Say Hello <i
                             class="fas fa-paper-plane ml-2"></i></a>
                 </div>
             </div>
@@ -263,10 +153,10 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Anitesh Reddy Surakanti. Built with <i class="fas fa-heart text-accent"></i> and Code.</p>
-            <div class="footer-links mt-2">
-                <a href="https://linkedin.com/in/reddy-anitesh/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/aniteshreddy" target="_blank"><i class="fab fa-github"></i></a>
+            <p>&copy; <span id="footer-year"></span> <span id="footer-name"></span>. Built with <i
+                    class="fas fa-heart text-accent"></i> and Code.</p>
+            <div class="footer-links mt-2" id="footer-social">
+                <!-- Dynamic Footer Links -->
             </div>
         </div>
     </footer>
