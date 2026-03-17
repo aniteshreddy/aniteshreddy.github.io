@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Fetch and populate portfolio data
-    fetch('assets/data/portfolio.json')
+    // Fetch and populate portfolio data from GitHub Gist
+    fetch('https://gist.githubusercontent.com/aniteshreddy/47372ad3a1fb4106443eec724bee2685/raw')
         .then(response => response.json())
         .then(data => {
             populateHero(data.hero);
