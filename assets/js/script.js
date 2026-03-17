@@ -184,14 +184,7 @@ function initializeInteractions() {
         revealOnScroll.observe(reveal);
     });
 
-    // Sub-elements dynamic reveal setup (staggered)
-    const cards = document.querySelectorAll('.glass-card');
-    cards.forEach((card, index) => {
-        card.style.opacity = 0;
-        card.style.transform = 'translateY(20px)';
-        card.style.transition = `all 0.3s ease-out ${index * 0.05}s`;
-        revealOnScroll.observe(card);
-    });
+
 
 
     // Active Link Highlighting
@@ -219,22 +212,10 @@ function initializeInteractions() {
     });
 
     // Trigger reveal immediately for elements already in view on load
-    setTimeout(() => {
-        const windowHeight = window.innerHeight;
-
-        reveals.forEach(reveal => {
-            const elementTop = reveal.getBoundingClientRect().top;
-            if (elementTop < windowHeight - 50) {
-                reveal.classList.add('active');
-            }
-        });
-
-        cards.forEach(card => {
-            const elementTop = card.getBoundingClientRect().top;
-            if (elementTop < windowHeight - 50) {
-                card.style.opacity = 1;
-                card.style.transform = 'translateY(0)';
-            }
-        });
-    }, 100);
+    const windowHeight = window.innerHeight;
+    reveals.forEach(reveal => {
+        if (reveal.getBoundingClientRect().top < windowHeight - 50) {
+            reveal.classList.add('active');
+        }
+    });
 }
