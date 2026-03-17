@@ -1,7 +1,6 @@
 
 # Anitesh's Portfolio
 
-Built with Next.js, CSS and the GitHub API. 
 
 ## About Me
 
